@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="deiam"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-05-21 08:38:05 "/>
+        <attribute name="created" value="ZGVpYW07TEFQVE9QLUZLOURMSFJSOzIwMjAtMDUtMjE7IjA3OjM3OjQwICI7Mjc5MQ=="/>
+        <attribute name="edited" value="ZGVpYW07TEFQVE9QLUZLOURMSFJSOzIwMjAtMDUtMjE7IjA4OjM4OjA1ICI7MjsyOTAz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, multiplicador" type="Integer" array="False" size=""/>
+            <assign variable="numero" expression="9"/>
+            <assign variable="multiplicador" expression="1"/>
+            <while expression="multiplicador &lt;= numero + 1">
+                <output expression="numero &amp;&quot; X &quot; &amp; multiplicador &amp; &quot; = &quot; &amp; numero * multiplicador" newline="True"/>
+                <assign variable="multiplicador" expression="multiplicador + 1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

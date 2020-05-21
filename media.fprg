@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="deiam"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-05-20 09:35:09 "/>
+        <attribute name="created" value="ZGVpYW07TEFQVE9QLUZLOURMSFJSOzIwMjAtMDUtMjA7IjA4OjI1OjA4ICI7Mjc5Mg=="/>
+        <attribute name="edited" value="ZGVpYW07TEFQVE9QLUZLOURMSFJSOzIwMjAtMDUtMjA7IjA5OjM1OjA5ICI7MTsyOTAz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, media, total" type="Real" array="False" size=""/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="total" expression="nota1 + nota2 + nota3 + nota4"/>
+            <assign variable="media" expression="total/4"/>
+            <output expression="&quot;O total &#233; &quot; &amp; total &amp; &quot;e a m&#233;dia &#233; &quot;&amp; media" newline="False"/>
+        </body>
+    </function>
+</flowgorithm>
